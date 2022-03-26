@@ -1,0 +1,34 @@
+h1{
+    margin:0;
+}
+
+a:hover {
+    color:red;
+}
+
+.main-wrap {
+    width:500px;
+    margin:auto;
+    padding-top: 100px;
+}
+
+
+.dongrami {
+    width:300px;
+    border-bottom: 5px dotted black;
+    padding:10px;
+    padding-left: 0px;
+}
+
+.second_wrap {
+    border : 5px solid blue;
+    background-color: wheat;
+}
+
+.alin {
+    width:200px;
+    height: 150px;
+    border:1px
+    solid red;
+    float:left
+}
