@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+    margin : 200px;
+}
+.whole{
+    display:flex;
+    background-color: black;
+    width: 800px;
+    height: 600px;
+    justify-content: space-evenly;
+}
+
+.left{
+    display:flex;
+    flex-basis:20%;
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.first{
+    display:flex;
+    background-color: white;
+    flex-basis :20%;
+}
+
+.second{
+    display:flex;
+    background-color: blue;
+    flex-basis: 10%;
+}
+
+.right{
+    justify-content: space-evenly;
+    display:flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+
+.third{
+    display:flex;
+    background-color: red;
+    flex-basis: 20%;
+
+}
+
+.fourth{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+.f1{
+    display: flex;
+    background-color: white;
+    flex-basis: 40%;
+}
+
+.f2{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.f3{
+    flex-basis: 20%;
+    background-color: white;
+}
+
+.f4{
+    background-color: yellow;
+    flex-basis: 20%;
+}
+
+
+
+
+
+

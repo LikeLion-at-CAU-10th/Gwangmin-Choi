@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+    margin : 200px;
+}
+
+.layout_container{
+    display:flex;
+    flex-direction:column;
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.layout_title{
+    display:flex;
+    justify-content: center; 
+    /* justify-content는 container에 사용가능 */
+    flex-basis:13%;
+}
+.title{
+    background-color: red;
+    width:97%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout_recent{
+    display:flex;
+    justify-content: space-evenly;
+    flex-basis:28%;
+    }
+
+.recent{
+    background-color: red;
+    width:23%;
+    display: flex;
+    justify-content: center;
+    /*중심축에 대해 중앙으로, div안에 있는 텍스트도 자식으로 파악한다.*/
+    align-items: center;
+    /* 교차축에 대해 중앙으로 */
+}
+
+.layout_popular{
+    display:flex;
+    justify-content: space-evenly;
+    flex-basis:53%;
+}
+
+.popular{
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular1{
+    flex-basis: 72%;
+}
+
+.popular2{
+    flex-basis:22%;
+}
