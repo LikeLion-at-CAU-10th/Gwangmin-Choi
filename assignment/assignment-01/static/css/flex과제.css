@@ -4,73 +4,83 @@ body{
 }
 .whole{
     display:flex;
-    background-color: black;
+    background-color: #012117;
     width: 800px;
     height: 600px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    border: 2px solid black;
 }
 
 .left{
     display:flex;
-    flex-basis:20%;
+    flex-basis:22%;
     
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+.first-wrap{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 70%;
+}
+
+
 
 .first{
     display:flex;
-    background-color: white;
-    flex-basis :20%;
+    background-color: #e6ebee;
+    flex-basis :45%;
 }
 
 .second{
     display:flex;
-    background-color: blue;
-    flex-basis: 10%;
+    background-color: #014a97;
+    flex-basis: 25%;
 }
 
 .right{
-    justify-content: space-evenly;
+    justify-content: space-between;
     display:flex;
     flex-direction: column;
-    flex-basis: 70%;
+    flex-basis: 73%;
 }
 
 .third{
     display:flex;
-    background-color: red;
-    flex-basis: 20%;
+    background-color: #d5121a;
+    flex-basis: 70%;
 
 }
 
 .fourth{
     display: flex;
     flex-direction: row;
-    flex-basis: 100%;
+    flex-basis: 25%;
+    justify-content: space-between;
 }
 
 .f1{
     display: flex;
-    background-color: white;
-    flex-basis: 40%;
+    background-color: #e6ebee;
+    flex-basis: 75%;
 }
 
 .f2{
     flex-basis: 20%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
 }
 
 .f3{
-    flex-basis: 20%;
-    background-color: white;
+    flex-basis: 45%;
+    background-color: #e6ebee;
 }
 
 .f4{
-    background-color: yellow;
-    flex-basis: 20%;
+    background-color: #f5d100;
+    flex-basis: 45%;
 }
 
 
