@@ -1,0 +1,81 @@
+*{
+    box-sizing:border-box;
+}
+/* '*'=전체 html에 적용 */
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;  
+    /* vh=전체 화면 비율에 관한 크기 */
+}
+
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:50px;
+    height:26px;
+    background-color: #111;
+    border-radius: 50px;
+    transform: scale(1.5);
+    position:relative;
+ /*부모 자식 관계면 부모 아래에서 자식을 움직일 수 있다.  */
+}
+
+.ball{
+    position:absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 22px;
+    height:22px;
+    top:2px;
+    left:2px;
+    transition: transform 0.2s ease-out;
+    /* 이걸 해야 움직임이 부드러워짐 */
+}
+
+/* checkbox에 체크가 된다면 = :checked*/
+.checkbox:checked+ .label .ball{
+    /* +는 앞에 있는 체크박스 바로 다음에 있는 걸 불러오는 속성=바로 다음에 있는 걸 불러옴 */
+    transform: translateX(24px);
+}
+
+
+.fa-moon{
+    color:#f1c40f;
+}
+
+.fa-sun{
+    color:#f39c12;
+}
+
+.checkbox{
+    position: absolute;
+    /* 자식속성 먹이기 */
+    opacity:0;
+    /* 투명도 */
+}
+
+body.dark{
+    background:#292c35;
+}
+
+body.dark p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
