@@ -1,2 +1,24 @@
 <p>깃실습을 위해서 끄적여보고 있어요!</p>
 <p>맞게하고 있는지 모르겠네요..</p>
+<p>오늘 풀고 있던 파이썬 코딩올려봅니다..ㅎㅎ</p>
+
+
+word=input()
+
+maxword=word[0]
+for i in range(1,len(word)-2):
+  if maxword>word[i]:
+    maxword=word[i]
+a=word.find(maxword)
+first=word[:a+1]
+first1=first[::-1]
+import random
+n=random.randint(a+2,len(word))
+second=word[a+1:n]
+second1=second[::-1]
+
+third=word[n:]
+third1=third[::-1]
+
+sum=first1+second1+third1
+print(sum)
