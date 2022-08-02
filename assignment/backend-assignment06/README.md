@@ -6,3 +6,7 @@
 
 ![11](https://user-images.githubusercontent.com/100203726/182307084-80884a53-ea0b-43d7-b624-ee71534c8bbb.jpg)
 =detail 페이지
+
+
+
+2. user 커스터마이징=김원표 올림
